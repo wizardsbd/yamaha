@@ -1,0 +1,579 @@
+
+
+.adbro-yamaha {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0!important
+}
+.adbro-yamaha * {
+	box-sizing: border-box
+}
+.adbro-yamaha__side {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 110px;
+	margin: 0!important;
+	-webkit-animation: fadeInOut24 10.5s ease-in-out infinite;
+	animation: fadeInOut24 10.5s ease-in-out infinite
+}
+.adbro-yamaha__side_2 {
+	opacity: 0;
+	-webkit-animation-delay: 3.5s;
+	animation-delay: 3.5s
+}
+.adbro-yamaha__side_3 {
+	opacity: 0;
+	-webkit-animation-delay: 7s;
+	animation-delay: 7s
+}
+.adbro-yamaha__bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 110px;
+	background: linear-gradient(180deg, rgba(42, 122, 222, 0) 0%, #307ADE 23.76%, #307ADE 100%);
+	-webkit-animation: fadeIn24 1s .5s both;
+	animation: fadeIn24 1s .5s both;
+	margin: 0!important;
+	overflow: hidden
+}
+.adbro-yamaha__bg2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 434px;
+	height: 110px;
+	background: url(../images/yamaha-bg2.svg) no-repeat;
+	background-size: contain;
+	-webkit-animation: fadeInRight24 1s .8s both;
+	animation: fadeInRight24 1s .8s both;
+	margin: 0!important
+}
+.adbro-yamaha__bg3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 283px;
+	height: 110px;
+	background: url(../images/yamaha-bg3.svg) no-repeat;
+	background-size: contain;
+	-webkit-animation: fadeInRight24 1s 1.2s both;
+	animation: fadeInRight24 1s 1.2s both;
+	margin: 0!important
+}
+.adbro-yamaha__bg4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 154px;
+	height: 110px;
+	background: url(../images/yamaha-bg4.svg) no-repeat;
+	background-size: contain;
+	-webkit-animation: fadeInRight24 1s 1.4s both;
+	animation: fadeInRight24 1s 1.4s both;
+	margin: 0!important
+}
+.adbro-yamaha__logo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0!important;
+	background: url(../images/yamaha-logo.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 154px;
+	height: 73px;
+	-webkit-animation: fadeInLeft24 1s 1.5s both;
+	animation: fadeInLeft24 1s 1.5s both
+}
+.adbro-sm .adbro-yamaha__logo {
+	left: -20px
+}
+.adbro-yamaha__text {
+	position: absolute;
+	bottom: 8px;
+	left: 50%;
+	margin: 0!important;
+	margin-left: -132px!important;
+	background: url(../images/yamaha-text.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 136px;
+	height: 78px;
+	-webkit-animation: fadeInUp24 .7s 1.6s both;
+	animation: fadeInUp24 .7s 1.6s both
+}
+.adbro-sm .adbro-yamaha__text {
+	margin-left: -120px!important
+}
+.adbro-yamaha__image {
+	position: absolute;
+	bottom: -5px;
+	right: 50%;
+	margin: 0!important;
+	margin-right: -232px!important;
+	background: url(../images/yamaha-img.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 211px;
+	height: 133px;
+	-webkit-animation: flipInX24 1.2s 1.8s both;
+	animation: flipInX24 1.2s 1.8s both
+}
+.adbro-sm .adbro-yamaha__image {
+	margin-right: -228px!important
+}
+.adbro-yamaha__text2 {
+	position: absolute;
+	bottom: 24px;
+	left: 50%;
+	margin: 0!important;
+	margin-left: -170px!important;
+	background: url(../images/yamaha-text2.svg) no-repeat 50% 50%;
+	background-size: contain;
+	width: 239px;
+	height: 43px;
+	-webkit-animation: fadeInDown24 1s 4s both;
+	animation: fadeInDown24 1s 4s both
+}
+.adbro-sm .adbro-yamaha__text2 {
+	margin-left: -145px!important;
+	width: 235px;
+	height: 40px
+}
+.adbro-yamaha__image2 {
+	position: absolute;
+	bottom: -45px;
+	right: 50%;
+	margin: 0!important;
+	margin-right: -305px!important;
+	background: url(../images/yamaha-img2.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 194px;
+	height: 192px;
+	-webkit-animation: flipInX24 1.2s 4.1s both;
+	animation: flipInX24 1.2s 4.1s both
+}
+.adbro-sm .adbro-yamaha__image2 {
+	margin-right: -248px!important
+}
+.adbro-yamaha__image3 {
+	position: absolute;
+	bottom: -45px;
+	right: 50%;
+	margin: 0!important;
+	margin-right: -395px!important;
+	background: url(../images/yamaha-img3.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 190px;
+	height: 189px;
+	-webkit-animation: flipInX24 1.2s 4.4s both;
+	animation: flipInX24 1.2s 4.4s both
+}
+.adbro-sm .adbro-yamaha__image3 {
+	margin-right: -318px!important
+}
+.adbro-yamaha__text3 {
+	position: absolute;
+	bottom: 57px;
+	left: 50%;
+	margin: 0!important;
+	margin-left: -130px!important;
+	background: url(../images/yamaha-text3-1.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 182px;
+	height: 22px;
+	-webkit-animation: fadeInUp24 1s 7.2s both;
+	animation: fadeInUp24 1s 7.2s both
+}
+.adbro-yamaha__text3-2 {
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	margin: 0!important;
+	margin-left: -125px!important;
+	background: url(../images/yamaha-text3-2.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 172px;
+	height: 16px;
+	-webkit-animation: fadeInUp24 1s 7.7s both;
+	animation: fadeInLeft24 1s 7.7s both
+}
+.adbro-yamaha__btn {
+	display: block;
+	position: absolute;
+	bottom: 9px;
+	left: 50%;
+	margin: 0!important;
+	margin-left: -121px!important;
+	background: url(../images/yamaha-btn-txt.png) no-repeat 50% 50%;
+	background-size: 136px 26px;
+	width: 162px;
+	height: 40px;
+	-webkit-animation: fadeInUp24 1s 7.4s both, shake24 3s 8s infinite;
+	animation: fadeInUp24 1s 7.4s both, shake24 3s 8s infinite
+}
+.adbro-sm .adbro-yamaha__btn {
+	margin-left: -124px!important
+}
+.adbro-yamaha__btn:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/yamaha-btn-img.svg) no-repeat 50% 50%;
+	width: 162px;
+	height: 40px
+}
+.adbro-yamaha__image4 {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin: 0!important;
+	margin-right: -285px!important;
+	background: url(../images/yamaha-img4.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 176px;
+	height: 108px;
+	-webkit-animation: fadeInRight24 1.2s 7.4s both;
+	animation: fadeInRight24 1.2s 7.4s both
+}
+.adbro-sm .adbro-yamaha__image4 {
+	margin-right: -248px!important
+}
+.adbro-yamaha__close {
+	position: absolute;
+	bottom: 80px;
+	right: 5px;
+	background: url(../images/adbro-demo-close2.svg) no-repeat;
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+	-webkit-animation: fadeIn24 1s .4s both;
+	animation: fadeIn24 1s .4s both;
+	cursor: pointer;
+	margin: 0!important;
+	z-index: 1
+}
+.adbro-yamaha__icon {
+	position: absolute;
+	bottom: 51px;
+	right: 5px;
+	background: url(../images/adbro-icon.svg) no-repeat;
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+	-webkit-animation: fadeIn24 1s .4s both;
+	animation: fadeIn24 1s .4s both;
+	cursor: pointer;
+	margin: 0!important;
+	z-index: 1
+}
+.adbro-yamaha__link {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 208px;
+	margin: 0!important
+}
+@-webkit-keyframes fadeIn24 {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+@keyframes fadeIn24 {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+@-webkit-keyframes fadeInLeft24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, 0, 0);
+		transform: translate3d(-50%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@keyframes fadeInLeft24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, 0, 0);
+		transform: translate3d(-50%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@-webkit-keyframes fadeInRight24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(50%, 0, 0);
+		transform: translate3d(50%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@keyframes fadeInRight24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(50%, 0, 0);
+		transform: translate3d(50%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@-webkit-keyframes zoomIn25 {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+	25% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1)
+	}
+	50% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+	75% {
+		-webkit-transform: scale3d(.9, .9, .9);
+		transform: scale3d(.9, .9, .9)
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+@keyframes zoomIn25 {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+	25% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1)
+	}
+	50% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+	75% {
+		-webkit-transform: scale3d(.9, .9, .9);
+		transform: scale3d(.9, .9, .9)
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+@-webkit-keyframes fadeInOut24 {
+	0% {
+		opacity: 0
+	}
+	4.76% {
+		opacity: 1
+	}
+	33.32% {
+		opacity: 1
+	}
+	38.08% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+@keyframes fadeInOut24 {
+	0% {
+		opacity: 0
+	}
+	4.76% {
+		opacity: 1
+	}
+	33.32% {
+		opacity: 1
+	}
+	38.08% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+@-webkit-keyframes fadeInUp24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50%, 0);
+		transform: translate3d(0, 50%, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@keyframes fadeInUp24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50%, 0);
+		transform: translate3d(0, 50%, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@-webkit-keyframes fadeInDown24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@keyframes fadeInDown24 {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0)
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+@-webkit-keyframes flipInX24 {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0
+	}
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in
+	}
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1
+	}
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg)
+	}
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px)
+	}
+}
+@keyframes flipInX24 {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0
+	}
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in
+	}
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1
+	}
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg)
+	}
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px)
+	}
+}
+.flipInX24 {
+	-webkit-backface-visibility: visible!important;
+	backface-visibility: visible!important;
+	-webkit-animation-name: flipInX;
+	animation-name: flipInX
+}
+@-webkit-keyframes shake24 {
+	from, 50% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0)
+	}
+	5%,
+	15%,
+	25%,
+	35%,
+	45% {
+		-webkit-transform: translate3d(-3px, 0, 0);
+		transform: translate3d(-3px, 0, 0)
+	}
+	10%,
+	20%,
+	30%,
+	40% {
+		-webkit-transform: translate3d(3px, 0, 0);
+		transform: translate3d(3px, 0, 0)
+	}
+}
+@keyframes shake24 {
+	from, 50% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0)
+	}
+	5%,
+	15%,
+	25%,
+	35%,
+	45% {
+		-webkit-transform: translate3d(-3px, 0, 0);
+		transform: translate3d(-3px, 0, 0)
+	}
+	10%,
+	20%,
+	30%,
+	40% {
+		-webkit-transform: translate3d(3px, 0, 0);
+		transform: translate3d(3px, 0, 0)
+	}
+}

@@ -1,0 +1,39 @@
+<svg width="434" height="110" viewBox="0 0 434 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Mask Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-30818 -9221)">
+<g id="Mask Group">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Rectangle 16.1">
+<use xlink:href="#path0_fill" transform="translate(30685 9221)" fill="url(#paint0_linear)"/>
+</g>
+</mask>
+<g id="Rectangle" mask="url(#mask0_alpha)" filter="url(#filter0_i)">
+<use xlink:href="#path1_fill" transform="translate(30818 9185)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i" filterUnits="userSpaceOnUse" x="30818" y="9185" width="491" height="195" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1.9482e-12 110 -567 -1.80613e-11 567 8.7561e-12)">
+<stop offset="0" stop-color="#53B8FF" stop-opacity="0"/>
+<stop offset="0.237569" stop-color="#53B8FF"/>
+<stop offset="1" stop-color="#53B8FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.78186e-14 191 -291 1.16954e-14 291 2.83878e-22)">
+<stop offset="0" stop-color="#4E22D1"/>
+<stop offset="1" stop-color="#581A92"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 0L 567 0L 567 110L 0 110L 0 0Z"/>
+<path id="path1_fill" d="M 64 0L 491 0L 445 191L 0 191L 64 0Z"/>
+</defs>
+</svg>
